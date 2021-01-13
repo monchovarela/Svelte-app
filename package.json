@@ -1,0 +1,25 @@
+{
+    "name": "Svelte-app",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "rollup -c",
+        "dev": "rollup -c -w",
+        "start": "sirv assets -s"
+    },
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^14.0.0",
+        "@rollup/plugin-node-resolve": "^8.0.0",
+        "rollup": "^2.3.4",
+        "rollup-plugin-json": "^4.0.0",
+        "rollup-plugin-livereload": "^2.0.0",
+        "rollup-plugin-svelte": "^6.0.0",
+        "rollup-plugin-terser": "^7.0.0",
+        "svelte": "^3.0.0"
+    },
+    "dependencies": {
+        "@rollup/plugin-json": "^4.1.0",
+        "html5-history-api": "^4.2.10",
+        "page": "^1.11.6",
+        "sirv-cli": "^1.0.0"
+    }
+}
